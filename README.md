@@ -60,7 +60,9 @@ The project is designed as a production-oriented ML application with a modular p
                   ┌────────────┴────────────┐
                   ▼                         ▼
            FastAPI REST API          Streamlit Dashboard
-📂 Project Structure
+```
+## 📂 Project Structure
+
 ai-resume-job-matcher/
 │
 ├── api/
@@ -101,7 +103,9 @@ ai-resume-job-matcher/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-🛠️ Technology Stack
+
+## 🛠️ Technology Stack
+
 Programming
 Python
 Data & Processing
@@ -124,7 +128,9 @@ Development
 Git
 GitHub
 Virtual environments
-⚡ API
+
+##⚡ API
+
 The project provides a FastAPI-based REST API.
 Start the API
 uvicorn api.main:app --reload
@@ -132,7 +138,9 @@ The API will be available at:
 http://127.0.0.1:8000
 Swagger Documentation
 http://127.0.0.1:8000/docs
-🔎 Health Check
+
+##🔎 Health Check
+
 Endpoint
 GET /health
 Example response:
@@ -140,7 +148,9 @@ Example response:
   "status": "healthy",
   "service": "ai-resume-job-matcher"
 }
-🎯 Resume–Job Matching
+
+##🎯 Resume–Job Matching
+
 Endpoint
 POST /match
 Example request:
@@ -169,24 +179,32 @@ Example response:
   "skill_score_max": 100,
   "pipeline_status": "success"
 }
-🧪 Testing
+
+## 🧪 Testing
+
 The project includes automated tests covering API, extraction, ingestion, matching, preprocessing, scoring, and pipeline components.
 Run:
 pytest
 Current test status:
 17 passed
-🖥️ Dashboard
+
+## 🖥️ Dashboard
+
 The project includes a Streamlit dashboard for interacting with the resume-job matching system.
 Run:
 streamlit run dashboard/app.py
-🔐 Input Validation
+
+## 🔐 Input Validation
+
 The API validates incoming requests and rejects empty or whitespace-only resume/job-description inputs.
 Example validation response:
 {
   "error": "validation_error",
   "message": "Request validation failed."
 }
-🎯 Example Use Cases
+
+## 🎯 Example Use Cases
+
 Candidate–job compatibility analysis
 Resume screening
 Skill-gap identification
@@ -207,7 +225,9 @@ Docker deployment
 Cloud deployment
 CI/CD pipeline
 Production monitoring
-📌 Project Highlights
+
+## 📌 Project Highlights
+
 This project demonstrates practical implementation of:
 Python application development
 Data preprocessing
@@ -222,10 +242,14 @@ Dashboard development
 Modular software architecture
 Git/GitHub workflow
 Production-oriented project structure
-👨‍💻 Author
+
+## 👨‍💻 Author
+
 Aashish
 AI/ML & Data Analytics Enthusiast
 GitHub:
 https://github.com/aashish-ml⁠�
-📄 License
+
+## 📄 License
+
 This project is licensed under the terms of the LICENSE file included in this repository.
