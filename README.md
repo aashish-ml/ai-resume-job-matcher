@@ -129,7 +129,7 @@ Git
 GitHub
 Virtual environments
 
-##⚡ API
+## ⚡ API
 
 The project provides a FastAPI-based REST API.
 Start the API
@@ -139,7 +139,7 @@ http://127.0.0.1:8000
 Swagger Documentation
 http://127.0.0.1:8000/docs
 
-##🔎 Health Check
+## 🔎 Health Check
 
 Endpoint
 GET /health
@@ -149,7 +149,7 @@ Example response:
   "service": "ai-resume-job-matcher"
 }
 
-##🎯 Resume–Job Matching
+## 🎯 Resume–Job Matching
 
 Endpoint
 POST /match
