@@ -1,0 +1,8 @@
+Alex Sharma
+AI/ML Engineer
+
+Skills: Python, SQL, Machine Learning, Scikit-learn, FastAPI
+
+Projects: Built a customer churn prediction system using Python and Scikit-learn.
+
+Education: Bachelor of Arts
