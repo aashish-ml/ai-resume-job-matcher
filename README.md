@@ -27,6 +27,16 @@ The application provides both a **REST API** and an interactive **Streamlit dash
 
 ---
 
+## 📸 Dashboard Preview
+
+The Streamlit dashboard provides an interactive interface for analyzing resume–job compatibility, viewing skill gaps, and reviewing the matching results.
+
+![AI Resume Job Matcher Dashboard](assets/dashboard-preview.png)
+
+---
+
+---
+
 ## ✨ Key Features
 
 ### 📄 Resume & Job Input
