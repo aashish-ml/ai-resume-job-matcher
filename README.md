@@ -1,5 +1,11 @@
 # 🤖 AI Resume Job Matcher
 
+![Python](https://img.shields.io/badge/Python-3.12%2B-blue)
+![FastAPI](https://img.shields.io/badge/FastAPI-API-009688)
+![Streamlit](https://img.shields.io/badge/Streamlit-Dashboard-FF4B4B)
+![Pytest](https://img.shields.io/badge/Tests-17%20Passed-success)
+![GitHub](https://img.shields.io/badge/GitHub-Repository-black)
+
 > An end-to-end AI/ML portfolio project that analyzes a candidate's resume against a job description, identifies matching and missing skills, and provides an explainable compatibility score through a FastAPI backend and Streamlit dashboard.
 
 ---
