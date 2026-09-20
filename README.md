@@ -125,7 +125,10 @@ The warnings are dependency deprecation warnings and do not currently cause test
                     │ - Extra Skills        │
                     │ - Skill Score         │
                     └───────────────────────┘
-🧠 Matching Workflow
+```
+
+## 🧠 Matching Workflow
+
 Resume Text
      │
      ▼
@@ -156,7 +159,9 @@ Resume Skills    Job Skills
              │
              ▼
       Streamlit Dashboard
-🛠️ Technology Stack
+
+## 🛠️ Technology Stack
+
 Programming
 Python
 Data Processing
@@ -181,7 +186,9 @@ Git
 GitHub
 Jupyter Notebook
 VS Code
-📁 Project Structure
+
+## 📁 Project Structure
+
 ai-resume-job-matcher/
 │
 ├── api/
@@ -229,11 +236,15 @@ ai-resume-job-matcher/
 ├── LICENSE
 ├── README.md
 └── requirements.txt
-⚙️ Installation
+
+## ⚙️ Installation
+
 1. Clone the repository
 git clone https://github.com/aaishish-ml/ai-resume-job-matcher.git
+
 2. Enter the project directory
 cd ai-resume-job-matcher
+
 3. Create a virtual environment
 Windows
 python -m venv .venv
@@ -242,12 +253,16 @@ Activate it:
 macOS / Linux
 python3 -m venv .venv
 source .venv/bin/activate
+
 4. Install dependencies
 pip install -r requirements.txt
-▶️ Running the Application
+
+## ▶️ Running the Application
+
 The project uses two services:
 FastAPI backend
 Streamlit dashboard
+
 1. Start FastAPI
 From the project root:
 uvicorn api.main:app --reload
@@ -255,13 +270,16 @@ The API will run at:
 http://127.0.0.1:8000
 Swagger documentation:
 http://127.0.0.1:8000/docs
+
 2. Start Streamlit
 Open another terminal and activate the virtual environment.
 Then run:
 streamlit run dashboard/app.py
 The dashboard will normally open at:
 http://localhost:8501
-🔌 API Endpoints
+
+## 🔌 API Endpoints
+
 Health Check
 GET /health
 Example response:
@@ -303,8 +321,11 @@ Example response:
     "pipeline_status": "success"
 }
 The exact result depends on the resume and job description supplied to the API.
-📊 Dashboard Workflow
+
+## 📊 Dashboard Workflow
+
 The Streamlit dashboard follows this workflow:
+
 1. Open Dashboard
         ↓
 2. Check API Status
@@ -324,8 +345,11 @@ The Streamlit dashboard follows this workflow:
 9. Review skill gaps
         ↓
 10. Download JSON result
+
 The dashboard also provides a Load Sample option for quickly testing the complete workflow.
-🧪 Testing
+
+## 🧪 Testing
+
 Run the complete test suite:
 python -m pytest -q
 Current verified result:
@@ -339,7 +363,9 @@ Matching
 Pipeline
 Preprocessing
 Scoring
-🔐 Input Validation
+
+## 🔐 Input Validation
+
 The API validates incoming requests using Pydantic schemas.
 For example, empty or whitespace-only inputs are rejected.
 Example:
@@ -348,7 +374,9 @@ Example:
     "message": "Request validation failed."
 }
 This prevents invalid requests from entering the matching pipeline.
-📈 Example Result
+
+## 📈 Example Result
+
 For a sample resume containing:
 Python
 SQL
@@ -379,7 +407,9 @@ Extra:
 + Pandas
 + NumPy
 The dashboard then presents the result through metrics, progress visualization and skill tags.
-🎯 Project Goals
+
+## 🎯 Project Goals
+
 This project was designed to demonstrate practical AI/ML engineering skills including:
 Python development
 Data preprocessing
@@ -394,7 +424,8 @@ Automated testing
 Git/GitHub
 Modular project architecture
 Production-oriented development practices
-🔮 Future Improvements
+
+## 🔮 Future Improvements
 Potential future improvements include:
 PDF resume upload
 DOCX resume support
@@ -412,7 +443,7 @@ Docker deployment
 CI/CD pipeline
 Cloud deployment
 Advanced analytics dashboard
-🧩 Engineering Highlights
+## 🧩 Engineering Highlights
 This project follows a modular architecture rather than keeping the complete application inside a single notebook or script.
 Key engineering decisions include:
 Separate API layer
@@ -425,7 +456,8 @@ Environment-variable protection
 Git-based version control
 Structured error handling
 This makes the project easier to test, maintain and extend.
-📌 Current Project Status
+
+## 📌 Current Project Status
 ✅ FastAPI backend
 ✅ Streamlit dashboard
 ✅ Resume/job matching
@@ -437,9 +469,12 @@ This makes the project easier to test, maintain and extend.
 ✅ Git repository
 ✅ GitHub repository
 ✅ Sample workflow
-👨‍💻 Author
+
+## 👨‍💻 Author
+
 Aashish
 AI/ML & Data Analytics Student
 Python | Machine Learning | Data Analysis | FastAPI | Streamlit
-📄 License
+
+## 📄 License
 This project is licensed under the license included in this repository.
