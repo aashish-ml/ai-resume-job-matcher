@@ -31,3 +31,5 @@ dist/
 # Coverage
 .coverage
 htmlcov/
+
+dashboard/app_backup.py 
